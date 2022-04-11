@@ -13,11 +13,12 @@ function creatDiv() {
     const parg1 = document.createElement("p");
     const button = document.createElement("button");
     const btColor = document.createElement("button");
-   
+    const btdelet = document.createElement("button");
 
     dives.classList.add("contador");
     button.innerHTML = "Clear";
     btColor.innerHTML = "Color";
+    btdelet.innerHTML = "Delet";
     parg.innerHTML = 0;
     parg1.innerHTML = barra;
 
@@ -34,6 +35,9 @@ function creatDiv() {
     button.onclick = function () {
       clear(n);
     };
+    btdelet.onclick = function () {
+      dives.style = "display: none";
+    };
 
     id++;
     parg1.id = id;
@@ -44,6 +48,7 @@ function creatDiv() {
     dives.appendChild(parg1);
     dives.appendChild(button);
     dives.appendChild(btColor);
+    dives.appendChild(btdelet);
 
     document.querySelector(".divs").appendChild(dives);
   }
@@ -57,8 +62,8 @@ function cont(id) {
 function cor(id) {
   let i = id + 1;
   document.getElementById(i).style.backgroundColor = generateColor();
-  
 }
+
 function clear(id) {
   var i = id + 1;
   document.getElementById(i).innerHTML = -1;
