@@ -14,7 +14,6 @@ function creatDiv() {
     const button = document.createElement("button");
     const btColor = document.createElement("button");
     const btdelet = document.createElement("button");
-
     dives.classList.add("contador");
     button.innerHTML = "Clear";
     btColor.innerHTML = "Color";
