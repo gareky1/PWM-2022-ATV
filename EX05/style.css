@@ -5,7 +5,7 @@
     left: 100px;
     width: 400px;
    
-    border: 3px solid #73AD21;
+   
     
 }
 .fakeimg2{
@@ -14,7 +14,7 @@
     left: 40px;
 
   
-    border: 3px solid #1a1b19;
+    
 }
 
 .fakeimg3{
@@ -22,7 +22,7 @@
     position: absolute;
    
    
-    border: 3px solid #cf421f;
+   
 
    
     
@@ -34,7 +34,7 @@
     width: 300px;
     left: 400px;
 
-    border: 3px solid #cf421f;
+    
 
    
    
@@ -47,13 +47,12 @@
     width: 100%;
     height:600px;  
 
-    border: 3px solid #cf421f;
-  
+   
 }
 #slider{
     position: absolute;
     left: 100px;
-    border: 3px solid #73AD21;
+    
 
 }
 #slider img{
@@ -61,7 +60,7 @@
     position: absolute;
     
   
-    border: 3px solid #f7e122;
+    
 
 }
 #slider img.selected{
@@ -69,12 +68,12 @@
     position: absolute;
    
    
-    border: 3px solid #cf421f;
+    
 }
 #slider2{
     position: absolute;
     left: 100px;
-    border: 3px solid #73AD21;
+   
 
 }
 #slider2 img{
@@ -82,7 +81,7 @@
     position: absolute;
     
   
-    border: 3px solid #f7e122;
+    
 
 }
 #slider2 img.selected2{
@@ -90,10 +89,5 @@
     position: absolute;
    
    
-    border: 3px solid #cf421f;
-}
-
-.jumbotron{
-    border: 3px solid #cf421f;
-
+   
 }
