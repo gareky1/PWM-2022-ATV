@@ -1,68 +1,42 @@
 .fakeimg {
-  height: 900px;
-  width: 400px;
+  position: relative;
+  height: 100%;
+  width: 100%;
   background: black;
- 
-}
-.fakeimg1 {
-  height: 900px;
-  width: 400px;
-  background: black;
-  
 }
 .fakeimg2 {
-  height: 900px;
-  width: 300px;
-  background:black;
-  
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: black;
+  top: 400px;
 }
 .posicionImg {
-   
-    width: 100%;
-    height: 200px;
-  }
-
-.text1{
-    
-        position: relative;
-        left: 130px;
-        top: 10px;
-}
-.posicionIcone1{
-    position: relative;
-    left: 10px;
-    top: 60px;
-}
-.text2{
-    position: relative;
-    left: 120px;
-    top: 150px;
-}
-.posicionIcone2{
-position: relative;
-left: 260px;
-top: 205px;
+  position: relative;
+  width: 100%;
+  top: 100px;
 }
 
-.text3{
-    position: relative;
-        left: 130px;
-        top: 250px;
-}
-.posicionIcone3{
-    position: relative;
-    left: 10px;
-    top: 300px;
+.text1 {
+  text-align: center;
 }
 
-.text4{
-    position: relative;
-    left: 10px;
-    top: 340px;
+.text2 {
+  text-align: center;
 }
-.posicionIcone4{
-position: relative;
-left: 260px;
-top: 400px;
+.posicionIcone2 {
+  position: relative;
+  left: 80%;
 }
 
+.text3 {
+  text-align: center;
+}
+
+.text4 {
+  text-align: center;
+}
+.posicionIcone4 {
+  position: relative;
+  left: 80%;
+}
