@@ -1,54 +1,34 @@
-.imgTela2{
-    display: block;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto ;
-  
+.imgTela2 {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
-.text1{
-    color: white;
-    position: relative;
-    left: 430px;
-    width: 500px;
-    top: 50px;
+.text1 {
+  color: white;
+  position: relative;
+  text-align: center;
 }
 
-#slider {
-    position: absolute;
-    left: 100px;
-  }
-  #slider img {
-    opacity: 0;
-    position: absolute;
-  }
-  #slider img.selected {
-    opacity: 1;
-    position: absolute;
-  }
-  .LoopPosicion{
-    position: absolute;
-    
-    width: 100%;
-    height: 500px;
-    left: 200px;
-  }
-  .fakeimg2 {
-    position: absolute;
-    left: 350px;
-  
-  }
-  .posicion1 {
-    margin-bottom: 100px;
-    width: 100%;
-    height: 800px;
-  }
-  .posicion2 {
-    margin-bottom: 100px;
-    width: 100%;
-    height: 600px;
-  }
-  .imgC {
-   
-    width: 100%;
-    height: 200px;
-  }
+#slider img {
+  opacity: 0;
+  position: absolute;
+}
+#slider img.selected {
+  opacity: 1;
+  position: absolute;
+}
+
+.posicion1 {
+  margin-bottom: 100px;
+  width: 100%;
+  height: 800px;
+}
+.posicion2 {
+  margin-bottom: 100px;
+  width: 100%;
+  height: 600px;
+}
+.imgC {
+  width: 100%;
+}
