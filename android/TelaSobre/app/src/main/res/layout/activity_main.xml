@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="30sp"
+            app:cardBackgroundColor="@color/cardview_light_background"
+
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/gi"
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:padding="10sp"
+                    app:srcCompat="@drawable/icone"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingTop="25sp"
+                    android:text="Telas Sobre..."
+                    android:textAlignment="center"
+                    android:textColor="#0B0A0A"
+                    android:textSize="30sp"
+
+                    />
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <GridLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="20sp"
+            android:columnCount="1"
+            android:rowCount="1"
+
+
+            >
+
+            <androidx.cardview.widget.CardView
+
+
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="0"
+                android:layout_gravity="center"
+                android:layout_margin="20sp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20sp">
+
+                <ImageView
+                    android:id="@+id/henrique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foreground="@drawable/henrique"
+                    android:src="@drawable/ic_launcher_foreground" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="0"
+                android:layout_gravity="center"
+                android:layout_margin="20sp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20sp">
+
+                <ImageView
+                    android:id="@+id/congelamento"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foreground="@drawable/gelado"
+                    android:src="@drawable/ic_launcher_foreground" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="0"
+                android:layout_gravity="center"
+                android:layout_margin="20sp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20sp">
+
+                <ImageView
+                    android:id="@+id/explosao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foreground="@drawable/boom"
+                    android:src="@drawable/ic_launcher_foreground" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="0"
+                android:layout_gravity="center"
+                android:layout_margin="20sp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20sp">
+
+                <ImageView
+                    android:id="@+id/tristeza"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foreground="@drawable/chorando"
+                    android:src="@drawable/ic_launcher_foreground" />
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
